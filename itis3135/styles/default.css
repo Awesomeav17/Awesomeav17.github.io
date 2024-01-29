@@ -1,5 +1,5 @@
 body {
-  background-color: red;
+  background-color: cadetblue;
   text-align: center;
 }
 
@@ -19,3 +19,15 @@ p {
 
 
 }
+  
+  a:link {
+    font-weight: bold; 
+    background-color: none;
+    color: antiquewhite; 
+    text-decoration: underline;
+  }
+   a:visited {
+  color: antiquewhite;
+}
+ 
+
