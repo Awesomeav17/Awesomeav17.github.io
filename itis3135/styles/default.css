@@ -1,14 +1,21 @@
 body {
-  background-color: green;
+  background-color: red;
   text-align: center;
 }
 
 h1 {
-  color: yellow;
-  text-align: blue;
+  color: antiquewhite;
+  text-align: yellow;
 }
 
 p {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Arial', Times, serif;
   font-size: 20px;
+  position: absolute;
+  bottom: 10px;
+  width: 50%;
+  border: 3px solid #8AC007; 
+
+
+
 }
