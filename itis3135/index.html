@@ -3,53 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Avnish Ozarkar's Adventurous Ostrich </title>
-    <link rel="stylesheet" href="styles/default.css">
+    <title>Avnish Ozarkar's Adventurous Ostrich || ITIS 3135</title>
+    <link rel="stylesheet" href="styles/default.css"> 
 </head>
 <body>
-    <h1>Avnish Ozarkar's Adventurous Ostrich || ITIS 3135</h1>
-<h1>
-    Home 
-</h1>
-<nav>
-    <a href="Introduction.html">Introduction</a>
-    ||
-    <a href="Contract.html">Contract</a>
-    ||
-    <a href="https://webpages.charlotte.edu/aozarkar/">CLT</a>
-    || 
-    <a href="https://github.com/Awesomeav17">Github Link</a>
-    ||
-    <a href="https://awesomeav17.github.io/.">Github Pages</a>
-    ||
-    <a href="https://webpages.charlotte.edu/aozarkar/itis3135/">Github Course Page</a>
-    ||
-    <a href="https://www.freecodecamp.org/Awesomeav17">FreeCodeCamp</a>
-    ||
-    <a href="https://www.codecademy.com/profiles/aozarkar">CodeAcademy</a>
-    ||
-    <a href="https://www.linkedin.com/in/avnish-ozarkar-1600511a3/">LinkedIn</a>
-    ||
-    <a href="https://validator.w3.org/check?uri=referer" id="validation_link_html">
-        <img style="border:0;width:88px;height:31px" src="https://mytienhoang.github.io/itis3135/z_archives/html_validation.png" alt="Valid HTML!">
-        </a>
-    ||
-     <a href="https://jigsaw.w3.org/css-validator/check/referer">
-        <img style="border:0;width:88px;height:31px"
-            src="https://jigsaw.w3.org/css-validator/images/vcss"
-            alt="Valid CSS!" />
-    ||
-    </a>
-    
-</nav>
-  <p>
-    
-    <a href="https://webpages.charlotte.edu/aozarkar/itis3135/adventurousostrich.htm">Page designed by Adventurous Ostrich Enterprises.</a>
+    <header>
+        <div data-include="components/header.html"></div>
 
-    </p>
-<h3>
-    <img src="https://www.scienceinschool.org/wp-content/uploads/2014/11/issue21ostrich.jpg"
-</h3>
+    </header>
+    <main>
+        <h2>Home</h2>
+        <p>Hello, you've made it to my ITIS 3135 Course Page!</p>
+    </main>
+<footer>
+   
+<div data-include="components/footer.html"></div>
 
+</footer>
+<script>
+    document.getElementById("validation_link_html").setAttribute("href", "https://validator.w3.org/check?uri=" + location.href);
+    document.getElementById("validation_link_css").setAttribute("href", "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
+</script>
+<script src="scripts/HTMLinclude.min.js"></script>
 </body>
 </html>
