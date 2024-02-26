@@ -3,67 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML FORM</title>
-    <Link rel="stylesheet" href="styles/cycles.css">
-   
+    <title>Avnish Ozarkar's Adventurous Ostrich || ITIS 3135 || Forms</title>
+    <Link rel="stylesheet" href="styles/default.css">
 </head>
 <body>
-    <header> 
-        <h1>AVNISH OZARKAR <p>ITIS 3135 Page </p></h1>
-    </header>
+  <header>
+    <div data-include="components/header.html"></div>
+  </header>
 <main>
     <h2>Welcome to the Adventurous Ostrich Enterprises Page!</h2>
-    <img src="https://t3.ftcdn.net/jpg/02/14/87/96/360_F_214879686_R3HFJlk6WLr1kcdvy6Q9rtNASKN0BZBS.jpg">
 </main>
 <form action="/action_page.php">
-    <h1>Submit the form for New Student Registration Below:</h1>
-    <label for="fname">First name:</label><br>
-    <input type="text" id="fname" name="fname" placeholder="First Name" required ><br>
-    <label for="lname">Last name:</label><br>
-    <input type="text" id="lname" name="lname"  placeholder="Last name" required>
-    <label for="pNumber"><br>Phone Number:<br></label>
-    <input type="number" id="pNumber" name="pNumber" placeholder="phone number"required>
-    <labrl for="email"><br>Email:<br></label>
-    <input type="email" id="email" name="email" required placeholder="email">
+  <!DOCTYPE html>
+<html>
+<body>
+<form action="/action_page.php">
+  <h1>Submit the form for New Student Registration Below:</h1>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" placeholder="First Name" required ><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname"  placeholder="Last name" required>
+  <label for="pNumber"><br>Phone Number:<br></label>
+  <input type="number" id="pNumber" name="pNumber" placeholder="phone number" required>
+  <label for="email"><br>Email:<br></label>
+  <input type="email" id="email" name="email" required placeholder="email">
 
-  <h4>
-    Check which semester you want to register for classes: 
-  </h4>
-  <label for="s2024">Spring 2024</label>
-  <input type="checkbox" id="s2024" name="s2024">
-  <label for="f2025">Fall 2025</label>
-  <input type="checkbox" id="f2025" name="f2025">
-  <label for="cars"><br>Choose a class:<br></label>
-  <select name="class" id="class">
-    <option value="ITIS3200">ITIS-3200</option>
-    <option value="ITSC1213">ITSC-1213</option>
-    <option value="ITSC 1212">ITSC-1212</option>
-    <option value="ITSC 2214">ITSC-2214</option>
-  </select>
-  <h1>More Student Information</h1>
+<h4>
+  Check which semester you want to register for classes: 
+</h4>
+<label for="s2024">Spring 2024</label>
+<input type="checkbox" id="s2024" name="s2024">
+<label for="f2025">Fall 2025</label>
+<input type="checkbox" id="f2025" name="f2025">
+<label for="cars"><br>Choose a class:<br></label>
+<select name="class" id="class">
+  <option value="ITIS3200">ITIS-3200</option>
+  <option value="ITSC1213">ITSC-1213</option>
+  <option value="ITSC 1212">ITSC-1212</option>
+  <option value="ITSC 2214">ITSC-2214</option>
+</select>
+<h1>More Student Information</h1>
 
 <form action="/action_page.php">
-    <p><br>Please select your favorite Web language:<br></p>
-    <input type="radio" id="html" name="fav_language" value="HTML">
-    <label for="html">HTML</label><br>
-    <input type="radio" id="css" name="fav_language" value="CSS">
-    <label for="css">CSS</label><br>
-    <input type="radio" id="javascript" name="fav_language" value="JavaScript">
-    <label for="javascript">JavaScript</label>
-  
-    <br>  
-  
-    <p><br>Please select your age:<br></p>
-    <input type="radio" id="age1" name="age" value="30">
-    <label for="age1">0 - 30</label><br>
-    <input type="radio" id="age2" name="age" value="60">
-    <label for="age2">31 - 60</label><br>  
-    <input type="radio" id="age3" name="age" value="100">
-    <label for="age3">61 - 100</label><br><br>
+  <p><br>Please select your favorite Web language:<br></p>
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">HTML</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">CSS</label><br>
+  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+  <label for="javascript">JavaScript</label>
+
+  <br>  
+
+  <p><br>Please select your age:<br></p>
+  <input type="radio" id="age1" name="age" value="30">
+  <label for="age1">0 - 30</label><br>
+  <input type="radio" id="age2" name="age" value="60">
+  <label for="age2">31 - 60</label><br>  
+  <input type="radio" id="age3" name="age" value="100">
+  <label for="age3">61 - 100</label><br><br>
 
   <input type="reset" value="Reset">
   <input type="submit" value="Submit">
+</form>
+
+
+</body>
+</html>
+
+</form>
+
   </form>
+  <footer>
+   <footer>
+    <div data-include="components/footer.html"></div>
+ <script>
+   document.getElementById("validation_link_html").setAttribute("href", "https://validator.w3.org/check?uri=" + location.href);
+    document.getElementById("validation_link_css").setAttribute("href", "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
+ </script>
+ <script src="scripts/HTMLinclude.min.js"></script>
+</footer>
+  </footer>
+</body>
+
+</html>
 
   
 </body>
